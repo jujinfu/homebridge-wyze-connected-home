@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-wyze-connected-home",
+  "name": "homebridge-wyze-connected-home-jju",
   "version": "0.5.1",
   "description": "Wyze Connected Home plugin for Homebridge",
   "license": "MIT",
@@ -10,13 +10,13 @@
   "keywords": [
     "homebridge-plugin"
   ],
-  "homepage": "http://github.com/misenhower/homebridge-wyze-connected-home",
+  "homepage": "http://github.com/jujinfu/homebridge-wyze-connected-home",
   "repository": {
     "type": "git",
-    "url": "git://github.com/misenhower/homebridge-wyze-connected-home.git"
+    "url": "git://github.com/jujinfu/homebridge-wyze-connected-home.git"
   },
   "bugs": {
-    "url": "http://github.com/misenhower/homebridge-wyze-connected-home/issues"
+    "url": "http://github.com/jujinfu/homebridge-wyze-connected-home/issues"
   },
   "engines": {
     "node": ">=0.12.0",
@@ -24,7 +24,8 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "md5": "^2.2.1"
+    "md5": "^2.2.1",
+    "yarn": "^1.22.10"
   },
   "devDependencies": {
     "eslint": "^6.8.0"
